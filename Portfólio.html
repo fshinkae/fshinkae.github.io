@@ -8,12 +8,23 @@
     h1 {
       font-family: 'Times New Roman', Times, serif;
     }
+    
+    h3 {
+      color: #00008B;
+    }
 
     body {
       background-color: azure;
     }
 
-    .Font-tamanho {
+    .List-hability {
+      font-size: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      width: 20%;
+      margin: auto;
+    }
+
+    .Indice {
       font-size: 15px;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       width: 20%;
@@ -23,6 +34,20 @@
     #img {
       border-radius: 50%
     }
+
+    div.box {
+      width: 50px;
+      display: inline-block;
+    }
+
+    .Sobre-mim {
+      width: 50%;
+      text-align: left;
+    }
+
+    .Strong-words {
+      color: #00008B;
+    }
   </style>
 
 </head>
@@ -31,10 +56,10 @@
   <center>
 
     <h1>Portfório Web</h1>
-    <h2>Felipe Yuji Shitara Shinkae</h2>
+    <h2>Olá, me chamo Felipe Shinkae</h2>
 
     <h3>Indice</h3>
-    <ol>
+    <ol class="Indice">
       <li><a href="#Sobre">Sobre Mim</a></li>
       <li><a href="#lista">Lista de Habilidades</a></li>
       <li><a href="#Redes">Redes Sociais</a></li>
@@ -46,8 +71,11 @@
 
 
     <h3 id="Sobre">Sobre Mim</h3>
-    <p>Me chamo Felipe Yuji Shitara Shinkae, sou formado em Engenharia Química e atualmente venho estudando programação
-      com a Trybe. Sou japonês, nasci na cidade de Ueda no Japão e atualmente estou morando em Três Lagoas/MS. <br>
+    <p Class="Sobre-mim">Me chamo Felipe Yuji Shitara Shinkae, sou formado em <strong class="Strong-words">Engenharia
+        Química</strong> e atualmente venho
+      estudando programação
+      com a Trybe. Sou japonês, nasci na cidade de Ueda no Japão e atualmente estou morando em <strong
+        class="Strong-words">Três Lagoas/MS</strong>. <br>
       Gosto muito de Viajar e tenho hobbies como ver animes, tocar instrumentos musicais, ler livros de ficção cientíca,
       jogar jogos online ou de tabuleiro e sair com os amigos, porém, na pandemia isso está bem difícil de
       acontecer.<br>
@@ -57,7 +85,7 @@
     </p>
 
     <h3 id="lista">Lista de Habilidades</h3>
-    <ul class="Font-tamanho">
+    <ul class="List-hability">
       <li><strong>Comunicativo</strong></li>
       <li>Rápido Aprendizado</li>
       <li>Dedicado</li>
@@ -65,12 +93,25 @@
     </ul>
 
     <h3 id="Redes">Redes Sociais</h3>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/felipe-shinkae/" target="_blank">Linkedin</a></li>
-      <li><a href="https://www.instagram.com/fshinkae" target="_blank">Instagram</a></li>
-      <li><a href="https://twitter.com/fshinkae" target="_blank">twitter</a></li>
-      <li><a href="https://github.com/fshinkae" target="_blank">Github</a></li>
-    </ul>
+
+    <div class="box">
+      <a href="https://www.linkedin.com/in/felipe-shinkae/" target="_blank"> <img src="Linkedin.png"
+          alt="Linkedin de Felipe Shinkae" width="50px"></a>
+    </div>
+
+    <div class="box"><a href="https://www.instagram.com/fshinkae" target="_blank"><img src="Instagram.png"
+          alt="Instagram de Felipe Shinkae" width="50px"></a></div>
+
+    <div class="box">
+      <a href="https://twitter.com/fshinkae" target="_blank"><img src="Twitter.png" alt="Twitter de Felipe Shinkae"
+          width="50px"></a>
+    </div>
+
+    <div class="box">
+      <a href="https://github.com/fshinkae" target="_blank"><img src="Github.png" alt="Github de Felipe Shinkae"
+          width="53px"></a>
+    </div>
+
   </center>
 
 
